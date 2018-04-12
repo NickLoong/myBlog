@@ -1,0 +1,45 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+ul,li{
+    list-style: none;
+    padding: 0
+}
+div{
+    position: relative;
+}
+.login-box{
+    margin: 0 auto;
+    width: 300px;
+    height: 150px;
+    margin-top: 30vh;
+    border: 1px solid #eee;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 20px;
+    /* background: blue; */
+}
+.login-box ul{
+    width: 100%;
+}
+.login-box ul li{
+    padding: 10px 0;
+    overflow: hidden;
+}
+.login-box .login-title{
+    width: 65px;
+    float: left;
+}
+.login-box .formval{
+    width: 165px;
+    float: left;
+}
+.login-btn{
+    float: right;
+}
