@@ -6,8 +6,9 @@
   </nav>
 </template>
 <script>
+
 export default {
-  name: "nav-menu",
+  name: "NavMenu",
   data() {
     return {
       // pages: []
